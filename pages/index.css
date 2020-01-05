@@ -1,0 +1,39 @@
+.map {
+    min-height: 300px;
+}
+
+.mapaheader {
+    min-height: 482px;
+    padding: 0;
+}
+
+.headerText {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    margin-top: 10%;
+
+}
+
+@media(max-width: 767px) {
+    .headerText {
+        width: 90%;
+        margin-left: 015px;
+        margin-top: 70px;
+    }
+}
+
+@media(min-width: 768px) {
+    .headerText {
+        width: 50%;
+        margin-left: 15px;
+    }
+}
+
+@media(min-width: 992px) {
+    .headerText {
+        width: 50%;
+        margin-left: 15%;
+    }
+    .cajaHeader {}
+}
